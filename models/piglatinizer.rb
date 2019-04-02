@@ -26,6 +26,6 @@ class PigLatinizer
       end
     end.join(" ")
   end
+  end
 
-end
 end   
