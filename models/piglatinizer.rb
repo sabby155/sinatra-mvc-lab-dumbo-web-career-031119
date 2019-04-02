@@ -1,10 +1,3 @@
-class PigLatinizer 
-  attr_reader :text
-  
-  def initialize
-   
-  end 
-  
   class PigLatinizer
 
   @@vowels = "aeiou"
@@ -25,7 +18,6 @@ class PigLatinizer
         word + first_consonants + "ay"
       end
     end.join(" ")
+    
   end
-  end
-
-end   
+  
